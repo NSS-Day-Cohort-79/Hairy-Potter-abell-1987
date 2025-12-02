@@ -7,6 +7,8 @@ export const toSellOrNotToSell = (pottery) => {
         } else {
             pottery.price = 20
         }
+    if (pottery.cracked === true)
+        { pottery.price = 2.50 }
     potteryForsale.push(pottery)
     return pottery
 }
