@@ -1,4 +1,4 @@
-const potteryForsale = []
+export const potteryForsale = []
 
 export const toSellOrNotToSell = (pottery) => {
     if (pottery.cracked === false)
